@@ -35,6 +35,3 @@ Visualization and dashboard creation with Streamlit and Plotly.
 Geo visualization using Plotly's built-in geo map functions.
 Dynamic updating of dashboards based on database data.
 Project development and deployment, including testing and securing the solution.
-
-## Contribution
-Contributions to this project are welcome! If you encounter any issues or have suggestions for improvement, feel free to open an issue or submit a pull request.
