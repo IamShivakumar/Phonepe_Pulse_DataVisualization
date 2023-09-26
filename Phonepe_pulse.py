@@ -194,7 +194,7 @@ if selected=="Explore Data":
               mycursor.execute(f"SELECT sum(Registered_user) FROM phonepe_pulse.map_user where year<={Year} and Quarter<={Quarter}")
               Total_users=mycursor.fetchone()
               totalUsers=format(Total_users[0],",")
-              st.write(f"###l :violet[Registered Phonepe users till Q{Quarter} {Year} : {totalUsers}]")
+              st.write(f"### :violet[Registered Phonepe users till Q{Quarter} {Year} : {totalUsers}]")
                       # Overall State Data - TOTAL APPOPENS - INDIA MAP
               st.markdown("## :violet[Overall Country Data - User App opening frequency]")
               mycursor.execute(f"select state, sum(Registered_user) as Total_Users, sum(App_opens) as Total_Appopens from map_user where year = {Year} and quarter = {Quarter} group by state order by state")
